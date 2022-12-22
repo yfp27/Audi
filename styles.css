@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100,200,300,400,500,600,700&800&display=swap');
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: #fff;
+  overflow-x: hidden;
+}
+.brand_logo {
+  padding: 3%;
+  margin-left: 7%;
+  font-size: 20px;
+}
+nav ul li a {
+  padding: 5px;
+  margin-left: 80px;
+}
+#home {
+  background: url('audi-r8-yellow-4k-y0-3840x2160.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  background-attachment: fixed;
+}
+@keyframes animate {
+  0% {
+    opacity: 0;
+    padding: 10% 0 0 9%;
+  }
+  50% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
+    padding: 2% 0 0 9%;
+  }
+}
+ul {
+  display: flex;
+  justify-content: right;
+  list-style-type: none;
+  margin-top: -6.5%;
+  position: absolute;
+  margin-left: 40%;
+  font-weight: 600;
+}
+li a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.5s;
+}
+li a:hover {
+  text-decoration: none;
+  color: #e9c32d;
+  transform: translateY(-100px);
+}
+.Faiz {
+  display: flex;
+  justify-content: left;
+}
+.hder1 {
+  padding: 2% 0 0 9%;
+  font-size: 30px;
+  animation: animate 1s ease-out;
+}
+span {
+  color: #e9c32d;
+  transition: 0.5s;
+}
+.hder1 h1:hover span {
+  color: #fff;
+}
+button {
+  padding: 15px;
+  background: #e9c32d;
+  border: none;
+  color: #fff;
+  border-radius: 80px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.5s;
+  border: 3px solid #e9c32d;
+  letter-spacing: 2px;
+}
+
+button:hover {
+  padding: 15px;
+  background: transparent;
+  border: 3px solid #e9c32d;
+  color: #e9c32d;
+  border-radius: 80px;
+  cursor: pointer;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+.main1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 2px;
+  padding: 7%;
+}
+.main1 img {
+  transform: scale(0.9);
+}
+.text {
+  padding: 12px;
+}
+.text h2 {
+  font-size: 40px;
+}
+.text p {
+  font-size: 17px;
+}
+body::-webkit-scrollbar {
+  background: #a48b25;
+}
+body::-webkit-scrollbar-thumb {
+  background: #fff;
+}
+.boxes {
+  display: flex;
+  justify-content: center;
+  padding: 7%;
+  background: #e9c32d;
+}
+.box {
+  margin: 20px;
+  background: #fff;
+  padding: 2%;
+  border-radius: 10px;
+  transition: 0.5s;
+  text-align: center;
+}
+.box:hover {
+  transform: translateY(-10px) translateX(15px);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.main2 {
+  background: rgba(0, 0, 0, 0.637) url('R8.jpg');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 2px;
+  padding: 7%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-blend-mode: darken;
+}
+i {
+  background-color: #fff;
+  text-align: center;
+  padding: 15px;
+  clip-path: circle();
+}
+i span {
+  color: #e9c32d;
+  background: transparent;
+}
+.contact_form {
+  background-color: #fff;
+  padding: 30px;
+  width: auto;
+  text-align: left;
+  font-size: 20px;
+}
+.contact_form input,
+textarea {
+  width: 300px;
+  padding: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 3px solid #e9c32d;
+}
+.contact_form input,
+textarea:focus {
+  outline: none;
+}
+
+footer {
+  background: #e9c32d;
+  padding: 1%;
+  text-align: center;
+  color: #fff;
+}
